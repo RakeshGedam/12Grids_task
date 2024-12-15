@@ -1,0 +1,43 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: "Itim", cursive, "Raleway", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    /* background: linear-gradient(90deg, white,rgba(178, 175, 175, 0.656)); */    
+  }
+  
+  .lForm{ 
+    display: inline-block;   
+    box-sizing: border-box;
+    margin:50px;   
+    padding: 30px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    
+  }
+
+  .lForm:hover{    
+    box-shadow: -15px 15px 10px rgba(0, 0, 0, 0.4);
+  } 
+
+  .pt-3 input[type="submit"]{
+    border-radius: 10px;
+    padding: 10px 150px;
+
+  }
+
+  input[type="email"],
+input[type="password"] {
+    padding: 10px;      
+    border-radius: 7px;
+    border: 1px solid #cccccc91; 
+}
+
+
+  .pt-3 input[type="submit"]:hover{
+    background-color: rgba(0, 0, 0, 0.907);
+    color: antiquewhite;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.379);    
+
+  }
